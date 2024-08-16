@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #0073e6;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-search {
+    margin-top: 20px;
+}
+
+.hero-search input {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.hero-search button {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: #005bb5;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.hero-search button:hover {
+    background-color: #004085;
+}
+
+/* Dictionary Section */
+.dictionary {
+    padding: 50px 20px;
+}
+
+.word-item {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.word-item h3 {
+    margin-top: 0;
+}
+
+.word-item p {
+    margin: 5px 0;
+}
